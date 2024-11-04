@@ -30,6 +30,7 @@ public class MainClass1
 		b1.move();
 	}
 }
+
 //Output :
 Gear at Left Side
 Move one Place to another place :
