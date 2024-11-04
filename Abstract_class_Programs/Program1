@@ -1,1 +1,32 @@
 
+package abstract_class_programs;
+
+abstract class Vehicle
+{
+	abstract public void move();
+	abstract public void gear();
+}
+abstract class TwoWheeler extends Vehicle
+{
+	public void move()
+	{
+		System.out.println("Move one Place to another place :");
+	}
+}
+class Bike extends TwoWheeler
+{
+	public void gear()
+	{
+		System.out.println("Gear at Left Side");
+	}
+}
+public class MainClass1 
+{
+	public static void main(String[] args)
+	{
+		Bike b1 = new Bike();
+		b1.gear();
+		b1.move();
+	}
+}
+
