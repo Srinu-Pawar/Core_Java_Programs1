@@ -31,3 +31,6 @@ public class MainClass2
 		s1.color();
 	}
 }
+//Output :
+Rose is Red in Color...
+SunFlower is Yellow color...
