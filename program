@@ -1,1 +1,33 @@
 
+
+package abstract_class_programs;
+
+abstract class Flower 
+{
+	abstract public void color();
+}
+class Rose extends Flower
+{
+	public void color()
+	{
+		System.out.println("Rose is Red in Color...");
+	}
+}
+class SunFlower extends Flower
+{
+	public void color()
+	{
+		System.out.println("SunFlower is Yellow color...");
+	}
+}
+public class MainClass2
+{
+	public static void main(String[] args)
+	{
+		Rose r1 = new Rose();
+		r1.color();
+		
+		SunFlower s1 = new SunFlower();
+		s1.color();
+	}
+}
