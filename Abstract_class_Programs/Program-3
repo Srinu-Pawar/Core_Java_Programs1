@@ -1,4 +1,9 @@
-
+//WAP for the below requirement 
+a> Program for Multi Level Inherehetance 
+b> Create 2 abstract method in Super class
+c> complete first method in immediate sub class 
+d> complete second method in nextlevel sub class
+e> Create Mainclass with Main Method Create Subclass Object and call both the methods.
 
 package abstract_class_programs;
 
