@@ -2,7 +2,6 @@
 
 package abstract_class_programs;
 
-
 abstract class SrinuNotes
 {
 	abstract public void topic18();
