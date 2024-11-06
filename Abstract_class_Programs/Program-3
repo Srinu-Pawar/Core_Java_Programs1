@@ -1,1 +1,35 @@
 
+
+package abstract_class_programs;
+
+
+abstract class SrinuNotes
+{
+	abstract public void topic18();
+	abstract public void topic29();
+}
+abstract class RajashekarNotes extends SrinuNotes
+{
+	@Override
+	public void topic18()
+	{
+		System.out.println("Complete is 18....");
+	}
+}
+class AnkitNotes extends RajashekarNotes
+{
+	public void topic29()
+	{
+		System.out.println("complete is 29.....");
+	}
+}
+public class MainClass3 
+{
+	public static void main(String[] args)
+	{
+		AnkitNotes a = new AnkitNotes();
+		a.topic18();
+		a.topic29();
+	}
+}
+
