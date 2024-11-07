@@ -1,1 +1,30 @@
 
+
+package abstract_class_programs;
+
+abstract class Birds
+{
+	abstract public void wings();
+	public void color()
+	{
+		System.out.println("Birds having Colors");
+	}
+}
+class Peacock extends Birds
+{
+	@Override
+	public void wings()
+	{
+		System.out.println("Peacock having Birds");
+	}
+}
+public class MainClass4 
+{
+	public static void main(String[] args)
+	{
+		Peacock p = new Peacock();
+		p.color();
+		p.wings();
+	}
+}
+
