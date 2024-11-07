@@ -27,6 +27,7 @@ public class MainClass4
 		p.wings();
 	}
 }
+
 //Output :
 Birds having Colors
 Peacock having Birds
