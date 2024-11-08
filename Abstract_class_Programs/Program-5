@@ -1,1 +1,24 @@
 
+package abstract_class_programs;
+
+abstract class Place
+{
+	abstract public void train();
+}
+class Benglore extends Place
+{
+	@Override
+	public void train()
+	{
+		System.out.println("We are Going to Benglore by Train...");
+	}
+}
+public class MainClass5 
+{
+	public static void main(String[] args)
+	{
+		Place p1 = (Place) new Benglore();
+		p1.train();
+	}
+}
+
