@@ -21,4 +21,5 @@ public class MainClass5
 		p1.train();
 	}
 }
-
+//Output :
+We are Going to Benglore by Train...
