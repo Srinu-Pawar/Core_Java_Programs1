@@ -1,1 +1,7 @@
+package approach1_programming;
+
+public class Ballon 
+{
+	public String color;
+}
 
