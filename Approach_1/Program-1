@@ -18,7 +18,6 @@ public class MainClass5
 		b2.color="Silver";
 		System.out.println("Ballon 1 Color is :"+b1.color);
 		System.out.println("Ballon 2 color is :"+b2.color);
-		
 	}
 }
 
