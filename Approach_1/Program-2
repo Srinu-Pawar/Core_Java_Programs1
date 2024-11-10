@@ -14,7 +14,7 @@ public class MainClass4
 {
 	public static void main(String[] args)
 	{
-		Chair c1=new Chair();
+	Chair c1=new Chair();
         Chair c2=new Chair();
         c1.height=50;
         c1.color="Blue";
