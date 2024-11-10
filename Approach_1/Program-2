@@ -30,3 +30,9 @@ public class MainClass4
 	}
 }
 //Output :
+-------Chair 1 Details-----
+Chair 1 Height is: 50
+Chair 1 Color is : Blue
+-------Chair 2 Details-----
+Chair 2 Height is: 60
+Chair 2 Color is : orange
