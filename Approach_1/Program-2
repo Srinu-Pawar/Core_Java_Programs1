@@ -28,6 +28,7 @@ public class MainClass4
         System.out.println("Chair 2 Color is : "+c2.color);
 	}
 }
+
 //Output :
 -------Chair 1 Details-----
 Chair 1 Height is: 50
