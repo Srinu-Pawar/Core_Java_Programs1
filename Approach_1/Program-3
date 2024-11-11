@@ -8,10 +8,7 @@ public class Circle
 }
 
 package approach1_mainclass;
-
-
 import approach1_programming.Circle;
-
 public class MainClass3
 {
 	public static void main(String[]args)
