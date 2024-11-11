@@ -1,1 +1,9 @@
 
+package approach1_programming;
+
+public class Circle 
+{
+	public static double pi=3.14;
+	public int r;
+}
+
