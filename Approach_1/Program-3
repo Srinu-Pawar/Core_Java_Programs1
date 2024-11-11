@@ -7,3 +7,39 @@ public class Circle
 	public int r;
 }
 
+package approach1_mainclass;
+
+
+import approach1_programming.Circle;
+
+public class MainClass3
+{
+	public static void main(String[]args)
+	{
+		Circle c1=new Circle();
+		Circle c2=new Circle();
+		Circle c3=new Circle();
+		c1.r=10;
+		c2.r=12; 
+		c3.r=6;
+		double area1=Circle.pi*c1.r*c1.r;
+		double area2=Circle.pi*c2.r*c2.r;
+		double area3=Circle.pi*c3.r*c3.r;
+		double circumference1=2*Circle.pi*c1.r;
+		double circumference2=2*Circle.pi*c2.r;
+		double circumference3=2*Circle.pi*c3.r;
+		System.out.println("------Circle 1 details");
+		System.out.println("Radius :"+c1.r);
+		System.out.println("Area of Circle:"+area1);
+		System.out.println("Circumference :"+circumference1);
+		System.out.println("------Circle 2 details");
+		System.out.println("Radius :"+c2.r);
+		System.out.println("Area of Circle:"+area2);
+		System.out.println("Circumference :"+circumference2);
+		System.out.println("------Circle 3 details");
+		System.out.println("Radius :"+c3.r);
+		System.out.println("Area of Circle:"+area3);
+		System.out.println("Circumference :"+circumference3);
+		
+	}
+}
