@@ -39,3 +39,15 @@ public class MainClass3
 	}
 }
 //Output :
+------Circle 1 details
+Radius :10
+Area of Circle:314.0
+Circumference :62.800000000000004
+------Circle 2 details
+Radius :12
+Area of Circle:452.15999999999997
+Circumference :75.36
+------Circle 3 details
+Radius :6
+Area of Circle:113.03999999999999
+Circumference :37.68
