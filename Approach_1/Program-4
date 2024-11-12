@@ -48,3 +48,18 @@ public class MainClass2
 	}
 }
 //Output :
+All Document Save in : D Drive
+----------------------------------
+-------Document 1 Details------
+----------------------------------
+File Name is     : srinu_7
+File Type is     : PDF
+File size in MB is:5
+File size in KB is:5120
+----------------------------------
+-------Document 2 Details------
+----------------------------------
+File Name is     : chinna_5
+File Type is     : Doc
+File size in MB is:10
+File size in KB is:10240
