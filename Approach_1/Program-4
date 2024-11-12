@@ -8,3 +8,42 @@ public class Document
 		public String fileType;
 		public int fileSize;
 }
+
+package approach1_mainclass;
+
+import approach1_programming.Document;
+public class MainClass2 
+{
+	public static void main(String[] args)
+	{
+		Document d1=new Document();
+		Document d2=new Document();
+		d1.fileName="srinu_7";
+		d1.fileType="PDF";
+		d1.fileSize=5;
+		d2.fileName="chinna_5";
+		d2.fileType="Doc";
+		d2.fileSize=10;
+		int fileSize1Kb=d1.fileSize*1024;
+		int fileSize2Kb=d2.fileSize*1024;
+
+		System.out.println(" All Document Save in : "+Document.storage);
+		System.out.println("----------------------------------");
+		System.out.println("-------Document 1 Details------");
+		System.out.println("----------------------------------");
+		System.out.println("File Name is     : "+d1.fileName);
+		System.out.println("File Type is     : "+d1.fileType);
+		System.out.println("File size in MB is:"+d1.fileSize);
+		System.out.println("File size in KB is:"+fileSize1Kb);
+		
+
+		System.out.println("----------------------------------");
+		System.out.println("-------Document 2 Details------");
+		System.out.println("----------------------------------");
+		System.out.println("File Name is     : "+d2.fileName);
+		System.out.println("File Type is     : "+d2.fileType);
+		System.out.println("File size in MB is:"+d2.fileSize);
+		System.out.println("File size in KB is:"+fileSize2Kb);
+		
+	}
+}
