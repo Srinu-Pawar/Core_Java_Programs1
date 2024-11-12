@@ -9,7 +9,6 @@ public class Document
 }
 
 package approach1_mainclass;
-
 import approach1_programming.Document;
 public class MainClass2 
 {
