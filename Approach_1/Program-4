@@ -1,1 +1,10 @@
 
+package approach1_programming;
+
+public class Document
+{
+		public static String storage="D Drive";
+		public String fileName;
+		public String fileType;
+		public int fileSize;
+}
