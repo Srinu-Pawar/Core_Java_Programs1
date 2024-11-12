@@ -1,6 +1,5 @@
 
 package approach1_programming;
-
 public class Document
 {
 		public static String storage="D Drive";
@@ -43,8 +42,7 @@ public class MainClass2
 		System.out.println("File Name is     : "+d2.fileName);
 		System.out.println("File Type is     : "+d2.fileType);
 		System.out.println("File size in MB is:"+d2.fileSize);
-		System.out.println("File size in KB is:"+fileSize2Kb);
-		
+		System.out.println("File size in KB is:"+fileSize2Kb);		
 	}
 }
 //Output :
