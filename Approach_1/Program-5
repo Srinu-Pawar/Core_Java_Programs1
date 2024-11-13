@@ -21,3 +21,6 @@ public class MainClass6
 		System.out.println("marker 2 height is :"+m2.height);
 	}
 }
+//Output :
+Marker 1 height is :7
+marker 2 height is :10
