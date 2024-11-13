@@ -1,6 +1,5 @@
 
 package approach1_programming;
-
 public class Marker
 {
 	public int height;
