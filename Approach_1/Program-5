@@ -7,7 +7,6 @@ public class Marker
 }
 
 package approach1_mainclass;
-
 import approach1_programming.Marker;
 public class MainClass6 
 {
