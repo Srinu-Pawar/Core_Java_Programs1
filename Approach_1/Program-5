@@ -5,3 +5,19 @@ public class Marker
 {
 	public int height;
 }
+
+package approach1_mainclass;
+
+import approach1_programming.Marker;
+public class MainClass6 
+{
+	public static void main(String[] args)
+	{
+		Marker m1=new Marker();
+		Marker m2=new Marker();
+		m1.height=7;
+		m2.height=10;
+		System.out.println("Marker 1 height is :"+m1.height);
+		System.out.println("marker 2 height is :"+m2.height);
+	}
+}
