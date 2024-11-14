@@ -1,1 +1,9 @@
+package approach1_programming;
+
+public class Rectangle 
+{
+		public static String color="White";
+		public int length;
+		public int width;
+}
 
