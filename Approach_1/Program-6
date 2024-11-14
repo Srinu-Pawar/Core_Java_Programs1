@@ -7,3 +7,37 @@ public class Rectangle
 		public int width;
 }
 
+package approach1_mainclass;
+import approach1_programming.Rectangle;
+public class MainClass1 
+{
+	public static void main(String[] args)
+	{
+		Rectangle r1=new Rectangle();
+		Rectangle r2=new Rectangle();
+		r1.length=5;
+		r1.width=2;
+		r2.length=6;
+		r2.width=3;
+		int l1=r1.length*100;
+		int w1=r1.width*100;
+		int l2=r2.length*100;
+		int w2=r2.width*100;
+		int area1=l1*w1;
+		int area2=l2*w2;
+		System.out.println("White color in All Rectangle");
+		System.out.println("------Rectangle 1 Details----");
+		System.out.println("Length 1 in m :"+r1.length);
+		System.out.println("Length 1 in cm:"+l1);
+		System.out.println("width 1 in m  :"+r1.width);
+		System.out.println("width 1 in cm :"+w1);
+		System.out.println("Area 1 in cm  :"+area1);
+		
+		System.out.println("------Rectangle 2 Details----");
+		System.out.println("Length 2 in m :"+r1.length);
+		System.out.println("Length 2 in cm:"+l1);
+		System.out.println("width 2 in m  :"+r1.width);
+		System.out.println("width 2 in cm :"+w1);
+		System.out.println("Area 2 in cm  :"+area1);
+	}
+}
