@@ -41,3 +41,4 @@ public class MainClass1
 		System.out.println("Area 2 in cm  :"+area1);
 	}
 }
+//Output :
