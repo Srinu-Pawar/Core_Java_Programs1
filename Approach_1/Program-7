@@ -8,4 +8,44 @@ public class Runner
 	public int num;
 	public int speed;
 }
+package approach1_mainclass;
 
+import approach1_programming.Runner;
+public class MainClass7
+{
+	public static void main(String[] args)
+	{
+		Runner r1=new Runner();
+		Runner r2=new Runner();
+		r1.name="Pawar_Srinu";
+		r1.num=5;
+		r1.speed=11;
+		
+		r2.name="Angth_Chinna";
+		r2.num=100;
+		r2.speed=12;
+		
+		double time1=Runner.distance/r1.speed;
+		double time2=Runner.distance/r2.speed;
+		
+		System.out.println("All Runners with Same distance "+Runner.distance);
+		System.out.println("------Runner 1 Details------");
+		System.out.println("Name 1 runner  :"+r1.name);
+		System.out.println("Jursey number  :"+r1.num);
+		System.out.println("Speed of Runner:"+r1.speed);
+		System.out.println("Time in Hour's :"+time1);
+		System.out.println("Time in Min's  :"+time1*60);
+		System.out.println("Time in Sc     :"+time1*60*60);
+		System.out.println("Time hr:min:sec:"+time1+":"+time1*60+":"+time1*60*60);
+		
+		
+		System.out.println("------Runner 2 Details------");
+		System.out.println("Name 2 runner  :"+r2.name);
+		System.out.println("Jursey number  :"+r2.num);
+		System.out.println("Speed of Runner:"+r2.speed);
+		System.out.println("Time in Hour's :"+time2);
+		System.out.println("Time in Min's  :"+time2*60);
+		System.out.println("Time in Sc     :"+time2*60*60);
+		System.out.println("Time hr:min:sec:"+time2+":"+time1*60+":"+time1*60*60);
+	}
+}
