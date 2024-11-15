@@ -50,3 +50,20 @@ public class MainClass7
 	}
 }
 //Output :
+All Runners with Same distance 60
+------Runner 1 Details------
+Name 1 runner  :Pawar_Srinu
+Jursey number  :5
+Speed of Runner:11
+Time in Hour's :5.0
+Time in Min's  :300.0
+Time in Sc     :18000.0
+Time hr:min:sec:5.0:300.0:18000.0
+------Runner 2 Details------
+Name 2 runner  :Angth_Chinna
+Jursey number  :100
+Speed of Runner:12
+Time in Hour's :5.0
+Time in Min's  :300.0
+Time in Sc     :18000.0
+Time hr:min:sec:5.0:300.0:18000.0
