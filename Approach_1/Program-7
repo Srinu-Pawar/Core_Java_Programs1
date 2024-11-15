@@ -1,1 +1,11 @@
 
+package approach1_programming;
+
+public class Runner
+{
+	public static int distance=60;
+	public String name;
+	public int num;
+	public int speed;
+}
+
