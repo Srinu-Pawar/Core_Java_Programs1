@@ -49,6 +49,7 @@ public class MainClass7
 		System.out.println("Time hr:min:sec:"+time2+":"+time1*60+":"+time1*60*60);
 	}
 }
+
 //Output :
 All Runners with Same distance 60
 ------Runner 1 Details------
