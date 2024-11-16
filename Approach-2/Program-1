@@ -1,1 +1,24 @@
 
+package approach2_programming;
+
+public class Ballon 
+{
+	private String color;
+	public void toGiveColor(String color)
+	{
+		if(color.equalsIgnoreCase("White")|| color.equalsIgnoreCase("Gold")|| color.equalsIgnoreCase("Silver")|| color.equalsIgnoreCase("Red"))
+		{
+			System.out.println("Valid ballon color,intialization Sucessfully");
+			this.color=color;
+		}
+		else
+		{
+			System.err.println("Invalid Ballon Color");
+		}
+	}
+	public void display()
+	{
+		System.out.println("Ballon Color is :"+color);
+	}
+}
+
