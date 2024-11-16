@@ -23,7 +23,6 @@ public class Ballon
 }
 
 package approach2_mainclass;
-
 import approach2_programming.Ballon;
 public class Mainclass3 
 {
