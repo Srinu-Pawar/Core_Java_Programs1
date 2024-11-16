@@ -22,3 +22,23 @@ public class Ballon
 	}
 }
 
+package approach2_mainclass;
+
+import approach2_programming.Ballon;
+public class Mainclass3 
+{
+	public static void main(String[] args)
+	{
+		Ballon b1= new Ballon();
+		b1.toGiveColor("white");
+		Ballon b2=new Ballon();
+		b2.toGiveColor("Red");
+		
+		System.out.println("-------Ballon 1 Details-------");
+		b1.display();
+		
+		System.out.println("-------Ballon 2 Details-------");
+		b2.display();
+	}
+}
+
