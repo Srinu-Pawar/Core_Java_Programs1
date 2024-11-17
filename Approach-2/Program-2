@@ -17,7 +17,6 @@ public class Chair
 			System.out.println("Invalid Chair color");
 		}
 	}
-	
 	public void validHeight(int h)
 	{
 		if(h>=50 && h<=100)
