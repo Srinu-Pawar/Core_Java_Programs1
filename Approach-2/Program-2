@@ -1,1 +1,34 @@
 
+
+package approach2_programming;
+
+public class Chair 
+{
+	public String color;
+	public int height;
+	
+	public void validColour(String s)
+	{
+		if(s.equalsIgnoreCase("Blue")|| s.equalsIgnoreCase("White")|| s.equalsIgnoreCase("Orange")|| s.equalsIgnoreCase("Red"))
+		{
+			System.out.println("Valid Chair Color ");
+		}
+		else
+		{
+			System.out.println("Invalid Chair color");
+		}
+	}
+	
+	public void validHeight(int h)
+	{
+		if(h>=50 && h<=100)
+		{
+			System.out.println("valid Chair Height data");
+		}
+		else
+		{
+			System.out.println("Invalid Chair Height data");
+		}
+	}
+}
+
