@@ -1,7 +1,6 @@
 
 
 package approach2_programming;
-
 public class Chair 
 {
 	public String color;
