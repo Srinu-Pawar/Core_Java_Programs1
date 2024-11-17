@@ -37,8 +37,7 @@ public class MainClass4
 	public static void main()
 	{
 		Chair c1=new Chair("Red", 5 );		
-		Chair c2=new Chair("White", 10);
-		
+		Chair c2=new Chair("White", 10);		
 	}
 }
 
