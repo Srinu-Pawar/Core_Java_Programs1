@@ -31,7 +31,6 @@ public class Chair
 }
 
 package approach2_mainclass;
-
 import approach3_programming.Chair;
 public class MainClass4 
 {
