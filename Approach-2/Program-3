@@ -44,6 +44,7 @@ public class Document
 		}
 	}
 }
+
 package approach2_mainclass;
 
 import approach2_programming.Document;
