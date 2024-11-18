@@ -44,4 +44,20 @@ public class Document
 		}
 	}
 }
+package approach2_mainclass;
+
+import approach2_programming.Document;
+public class MainClass6 
+{
+	public static void main(String[] args)
+	{
+		Document d1=new Document();
+		d1.validfileName("Srinu");
+		d1.validfileType("Pdf");
+		
+		Document d2=new Document();
+		d2.validfileName("chinna");
+		d2.validfileType("png");
+	}
+}
 
