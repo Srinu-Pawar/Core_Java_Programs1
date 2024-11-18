@@ -61,6 +61,7 @@ public class MainClass6
 		d2.validfileType("png");
 	}
 }
+
 //Output :
 Valid Name of File
 File type is Valid
