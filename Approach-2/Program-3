@@ -1,1 +1,47 @@
 
+package approach2_programming;
+
+public class Document 
+{
+	public static String storage="D- drive";
+	public String fileName;
+	public String fileType;
+	public int fileSize;
+	
+	public void validfileName(String n)
+	{
+		if(n.charAt(0)>='A' && n.charAt(0)<'Z')
+		{
+			System.out.println("Valid Name of File");
+		}
+		else
+		{
+			System.out.println("Invalid Name of file");
+		}
+	}
+	
+	public void validfileType(String s)
+	{
+		if(s.equalsIgnoreCase("Pdf") || s.equalsIgnoreCase("Png")|| s.equalsIgnoreCase("Doc"))
+		{
+			System.out.println("File type is Valid");
+		}
+		else
+		{
+			System.out.println("File type is Invalid");
+		}
+	}
+	
+	public void validSize(int s)
+	{
+		if(s>=5 && s<=28)
+		{
+			System.out.println("Valid file size");
+		}
+		else
+		{
+			System.out.println("Invalid file size");
+		}
+	}
+}
+
