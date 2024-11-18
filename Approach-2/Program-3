@@ -61,4 +61,4 @@ public class MainClass6
 		d2.validfileType("png");
 	}
 }
-
+//Output :
