@@ -1,7 +1,6 @@
 
 
 package approach2_programming;
-
 public class Rectangle 
 {
 		private static String color="White";
