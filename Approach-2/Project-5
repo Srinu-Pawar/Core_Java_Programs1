@@ -72,3 +72,18 @@ public class MainClass1
 		r2.display();
 	}
 }
+//Output :
+White color in All Rectangle
+------Rectangle  Details----
+Length in m :6
+Length in cm:600
+width in m  :3
+width in cm :300
+Area of Rectangle 180000
+White color in All Rectangle
+------Rectangle  Details----
+Length in m :7
+Length in cm:700
+width in m  :5
+width in cm :500
+Area of Rectangle 350000
