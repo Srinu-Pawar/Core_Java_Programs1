@@ -72,6 +72,7 @@ public class MainClass1
 		r2.display();
 	}
 }
+
 //Output :
 White color in All Rectangle
 ------Rectangle  Details----
