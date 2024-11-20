@@ -1,1 +1,74 @@
 
+
+package approach2_programming;
+
+public class Rectangle 
+{
+		private static String color="White";
+		private int length;
+		private int width;
+		public void initialize(int length,int width)
+		{
+			if(length>=5 && length<=10)
+			{
+				this.length=length;
+			}
+			else
+			{
+				System.err.println("Invalid Data");
+			}
+			if(width>=2 && width<=6)
+			{
+				this.width=width;
+			}
+			else
+			{
+				System.err.println("Invalid Data");
+			}
+		}
+		public int reIntLength()
+		{
+			int newlength=length*100;
+			return newlength;
+		}
+		public int reIntWidth()
+		{
+			int newWidth=width*100;
+			return newWidth;
+		}
+		public int areaCal() 
+		{
+			int area1=(reIntLength()*reIntWidth());
+			//System.out.println("Area of Rectangle :"+area1);
+			return area1;
+		}
+		public void display()
+		{
+			System.out.println("White color in All Rectangle");
+			System.out.println("------Rectangle  Details----");
+
+			System.out.println("Length in m :"+length);
+			System.out.println("Length in cm:"+reIntLength());
+			
+			System.out.println("width in m  :"+width);
+			System.out.println("width in cm :"+reIntWidth());
+			System.out.println("Area of Rectangle "+areaCal());
+		}
+}
+
+package approach2_mainclass;
+
+import approach2_programming.Rectangle;
+
+public class MainClass1 
+{
+	public static void main(String[] args)
+	{
+		Rectangle r1=new Rectangle();
+		Rectangle r2=new Rectangle();
+		r1.initialize(6,3);
+		r1.display();
+		r2.initialize(7,5);
+		r2.display();
+	}
+}
