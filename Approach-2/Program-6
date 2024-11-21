@@ -1,6 +1,5 @@
 
 package approach2_programming;
-
 public class Marker 
 {
 	private int height;
@@ -23,7 +22,6 @@ public class Marker
 }
 
 package approach2_mainclass;
-
 import approach2_programming.Marker;
 public class MainClass2 
 {
