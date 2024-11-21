@@ -22,3 +22,22 @@ public class Marker
 	}
 }
 
+package approach2_mainclass;
+
+import approach2_programming.Marker;
+public class MainClass2 
+{
+	public static void main(String[] args)
+	{
+		Marker m1=new Marker();
+		m1.toGiveHeight(8);
+		Marker m2=new Marker();
+		m2.toGiveHeight(90);
+		
+		System.out.println("---- Marker 1 Details -------");
+		m1.display();
+		
+		System.out.println("---- Marker 2 Details -------");
+		m2.display();
+	}
+}
