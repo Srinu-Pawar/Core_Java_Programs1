@@ -41,3 +41,9 @@ public class MainClass2
 		m2.display();
 	}
 }
+//Output :
+Valid Marker Heigth , Intialization SucessfullyInvalid Marker Height 
+---- Marker 1 Details -------
+Marker Height is :8
+---- Marker 2 Details -------
+Marker Height is :0
