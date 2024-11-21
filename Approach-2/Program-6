@@ -1,1 +1,24 @@
 
+package approach2_programming;
+
+public class Marker 
+{
+	private int height;
+	public void toGiveHeight(int height)
+	{
+		if(height>=5 && height<=15)
+		{
+			System.out.println("Valid Marker Heigth , Intialization Sucessfully");
+			this.height=height;
+		}
+		else
+		{
+			System.err.println("Invalid Marker Height ");
+		}
+	}
+	public void display()
+	{
+		System.out.println("Marker Height is :"+height);
+	}
+}
+
