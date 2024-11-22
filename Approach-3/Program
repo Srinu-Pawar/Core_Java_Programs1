@@ -22,3 +22,22 @@ public class Ballon
 		System.out.println("Ballon Color is :"+color);
 	}
 }
+package approach3_mainclass;
+
+import approach3_programming.Ballon;
+public class Mainclass3 
+{
+	public static void main(String[] args)
+	{
+		Ballon b1= new Ballon("White");
+		
+		Ballon b2=new Ballon("Red");
+		
+		
+		System.out.println("-------Ballon 1 Details-------");
+		b1.display();
+		
+		System.out.println("-------Ballon 2 Details-------");
+		b2.display();
+	}
+}
