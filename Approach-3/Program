@@ -1,7 +1,6 @@
 
 
 package approach3_programming;
-
 public class Chair 
 {
 	public String color;
@@ -45,6 +44,7 @@ public class MainClass4
 		c2.validHeight(10);
 	}
 }
+
 //Output :
 Valid ballon color,intialization SucessfullyValid ballon color,intialization Sucessfully
 Valid ballon color,intialization Sucessfully
