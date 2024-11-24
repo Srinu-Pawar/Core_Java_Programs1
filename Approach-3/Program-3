@@ -35,3 +35,20 @@ public class Circle
 		System.out.println("Circumference of Circle is :"+circumference+" in cms");
 	}
 }
+
+package approach3_mainclass;
+
+import approach2_programming.Chair;
+public class MainClass4 
+{
+	public static void main()
+	{
+		Chair c1=new Chair();
+		c1.validColour("red");
+		c1.validHeight(50);
+		
+		Chair c2=new Chair();
+		c2.validColour("black");
+		c2.validHeight(10);
+	}
+}
