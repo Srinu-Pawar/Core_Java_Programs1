@@ -51,4 +51,11 @@ public class MainClass4
 		c2.validHeight(10);
 	}
 }
+
 //Output :
+Valid ballon color,intialization Sucessfully
+Valid ballon color,intialization Sucessfully
+-------Ballon 1 Details-------
+Ballon Color is :White
+-------Ballon 2 Details-------
+Ballon Color is :Red
