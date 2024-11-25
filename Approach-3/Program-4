@@ -36,3 +36,4 @@ public class MainClass2
 		m2.display();
 	}
 }
+//Output :
