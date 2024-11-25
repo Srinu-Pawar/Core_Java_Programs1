@@ -21,3 +21,23 @@ public class Marker
 		System.out.println("Marker Height is :"+height);
 	}
 }
+
+package approach3_mainclass;
+
+import approach3_programming.Marker;
+public class MainClass2 
+{
+	public static void main(String[] args)
+	{
+		Marker m1=new Marker(20);
+		
+		Marker m2=new Marker(90);
+		
+		
+		System.out.println("---- Marker 1 Details -------");
+		m1.display();
+		
+		System.out.println("---- Marker 2 Details -------");
+		m2.display();
+	}
+}
