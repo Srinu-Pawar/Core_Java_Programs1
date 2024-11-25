@@ -23,7 +23,6 @@ public class Marker
 }
 
 package approach3_mainclass;
-
 import approach3_programming.Marker;
 public class MainClass2 
 {
