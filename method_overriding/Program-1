@@ -1,1 +1,26 @@
 
+package method_overriding_programming;
+
+abstract class A
+{
+	public void display()
+	{
+		System.out.println("Display News....");
+	}
+}
+class B extends A
+{
+	public void display()
+	{
+		System.out.println("Display Movie...");
+	}
+}
+public class MainClass1 
+{
+	public static void main(String[] args)
+	{
+		B b = new B();
+		b.display();
+	}
+}
+
