@@ -1,1 +1,41 @@
 
+
+package method_overriding_programming;
+
+abstract class Vehicle
+{
+	public void start()
+	{
+		System.out.println("Kick start...");
+	}
+	public void gear()
+	{
+		System.out.println("Gear on Left side...");
+	}
+}
+abstract class TwoWheeler extends Vehicle 
+{
+	@Override
+	public void start()
+	{
+		System.out.println("Self Start....");
+	}
+}
+class RoyalEnfield extends TwoWheeler
+{
+	@Override
+	public void gear()
+	{
+		System.out.println("Gear start at Right side...");
+	}
+}
+public class MainClass2 
+{
+	public void main(String[] args)
+	{
+		RoyalEnfield r = new RoyalEnfield();
+		r.start();
+		r.gear();
+	}
+}
+
