@@ -47,6 +47,7 @@ public class MainClass3
 		t.structure();
 	}
 }
+
 //Output :
 Structure of Rectangles...
 Structure of Circle....
