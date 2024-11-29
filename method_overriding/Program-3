@@ -1,1 +1,49 @@
 
+
+package method_overriding_programming;
+
+abstract class Shapes
+{
+	public void structure()
+	{
+		System.out.println("Structure of Shapes....");
+	}
+}
+class Rectangle extends Shapes
+{
+	@Override
+	public void structure()
+	{
+		System.out.println("Structure of Rectangles...");
+	}
+}
+class Circle extends Rectangle
+{
+	@Override
+	public void structure()
+	{
+		System.out.println("Structure of Circle....");
+	}
+}
+class Triangle extends Shapes
+{
+	@Override
+	public void structure()
+	{
+		System.out.println("Structure of Triangle...");
+	}
+}
+public class MainClass3 
+{
+	public static void main(String[] args)
+	{
+		Rectangle r = new Rectangle();
+		r.structure();
+		
+		Circle c = new Circle();
+		c.structure();
+		
+		Triangle t = new Triangle();
+		t.structure();
+	}
+}
