@@ -1,7 +1,6 @@
 
 
 package method_overriding_programming;
-
 abstract class Shapes
 {
 	public void structure()
