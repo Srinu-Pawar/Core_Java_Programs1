@@ -1,1 +1,33 @@
-O
+
+
+package object_type_casting_programs;
+
+class Arundhathi
+{
+	public void rule()
+	{
+		System.out.println("Rule Kingdoms....");
+	}
+}
+class Sweety extends Arundhathi
+{
+	public void doctor()
+	{
+		System.out.println("Save the People...");
+	}
+}
+public class MainClass1 
+{
+	public static void main(String[] args)
+	{
+		//Upcasting
+		Arundhathi a = (Arundhathi)new Sweety();
+		a.rule();
+		
+		//DownCasting
+		Sweety s = (Sweety)a;
+		s.doctor();
+		s.rule();
+	}
+}
+
