@@ -13,7 +13,7 @@ class Sweety extends Arundhathi
 {
 	public void doctor()
 	{
-		System.out.println("Save the People...");
+		System.out.println("Save the People....");
 	}
 }
 public class MainClass1 
