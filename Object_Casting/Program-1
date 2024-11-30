@@ -30,6 +30,7 @@ public class MainClass1
 		s.rule();
 	}
 }
+
 //Output :
 Rule Kingdoms....
 Save the People...
