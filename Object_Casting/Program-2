@@ -1,1 +1,46 @@
 
+
+package object_type_casting_programs;
+
+class Animal
+{
+	public void eat()
+	{
+		System.out.println("Animals are eat...");
+	}
+}
+class Tiger extends Animal
+{
+	public void hunt()
+	{
+		System.out.println("Tiger Hunt the Animal...");
+	}
+}
+class Dog extends Animal
+{
+	public void run()
+	{
+		System.out.println("Dog Run .....");
+	}
+}
+public class MainClass2 
+{
+	public static void main(String[] args)
+	{
+		//upcasting...
+		Animal a1 = (Animal)new Tiger();
+		a1.eat();
+		
+		//Downcasting...
+		Tiger t1 = (Tiger)a1;
+		t1.eat();
+		t1.hunt();
+		
+		Animal a2 = (Animal)new Dog();
+		a2.eat();
+		
+		Dog d1=(Dog)a2;
+		d1.eat();
+		d1.run();
+	}
+}
