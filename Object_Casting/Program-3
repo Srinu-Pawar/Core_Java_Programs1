@@ -1,5 +1,4 @@
 
-
 package object_type_casting_programs;
 
 class ForestAnimal
@@ -46,4 +45,4 @@ public class MainClass3
 		l2.rule();
 	}
 }
-
+//Output :
