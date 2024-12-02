@@ -2,7 +2,6 @@
 
 package object_type_casting_programs;
 
-
 class ForestAnimal
 {
 	public void roam()
