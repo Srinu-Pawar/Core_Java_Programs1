@@ -1,1 +1,50 @@
 
+
+package object_type_casting_programs;
+
+
+class ForestAnimal
+{
+	public void roam()
+	{
+		System.out.println("Roaming the Animals in forest.....");
+	}
+}
+class WildAnimal extends ForestAnimal
+{
+	public void hunt()
+	{
+		System.out.println("Hunt....");
+	}
+}
+class Lion extends WildAnimal
+{
+	public void rule()
+	{
+		System.out.println("Rule.....");
+	}
+}
+public class MainClass3 
+{
+	public static void main(String[] args)
+	{
+		//Upcasting...
+		Lion l1 = new Lion();
+		WildAnimal w = (WildAnimal)l1;
+		w.hunt();
+		w.roam();
+		ForestAnimal a = (ForestAnimal)w;
+		a.roam();
+		
+		//Downcasting....
+		WildAnimal w2 = (WildAnimal)a;
+		w2.hunt();
+		w2.roam();
+		
+		Lion l2 = (Lion)w2;
+		l2.roam();
+		l2.hunt();
+		l2.rule();
+	}
+}
+
